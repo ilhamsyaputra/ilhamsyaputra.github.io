@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 date: 2026-02-13
-draft: true
+draft: false
 summary: "About M. Ilham Syaputra - Backend Engineer"
 showToc: false
 ShowBreadCrumbs: true
