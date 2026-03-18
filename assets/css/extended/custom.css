@@ -1,0 +1,101 @@
+/* Resume Timeline */
+.main .timeline {
+  position: relative;
+  padding-left: 1.65rem;
+  margin-top: 1.5rem;
+}
+
+.main .timeline::before {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--border);
+}
+
+.main .timeline h3 {
+  position: relative;
+  margin-top: 2rem;
+}
+
+.main .timeline h3::before {
+  content: "";
+  position: absolute;
+  left: -1.5rem;
+  top: 0.45rem;
+  width: 10px;
+  height: 10px;
+  background: var(--primary);
+  border-radius: 50%;
+}
+
+.main .timeline-date {
+  display: inline-block;
+  margin: 0.3rem 0 0.6rem;
+  padding: 0.15rem 0.5rem;
+  font-size: 0.8rem;
+  color: var(--secondary);
+  background: var(--code-bg);
+  border-radius: 4px;
+}
+
+/* Work meta wrapper */
+.work-meta {
+  margin: 0.25rem 0 0.75rem;
+}
+
+/* Timeline date badge already styled */
+.work-meta .timeline-date {
+  display: inline-block;
+  margin-bottom: 0.2rem;
+}
+
+/* Work arrangement (below date) */
+.work-arrangement {
+  font-size: 0.8rem;
+  color: var(--secondary);
+  line-height: 1.2;
+  margin: 0;              /* 🔴 removes the gap */
+}
+
+/* Experience block */
+.experience {
+  margin: 1.75rem 0;
+}
+
+/* Role title */
+.experience-role {
+  margin: 0;
+}
+
+/* Company name (tight to role) */
+.experience-company {
+  font-weight: 600;
+  margin: 0.15rem 0 0.25rem;
+}
+
+/* Meta: date + arrangement */
+.experience-meta {
+  margin: 0 0 0.75rem;
+}
+
+/* Timeline badge already styled */
+.experience-meta .timeline-date {
+  display: inline-block;
+  margin-bottom: 0.2rem;
+}
+
+/* Arrangement below date */
+.work-arrangement {
+  font-size: 0.8rem;
+  color: var(--secondary);
+  line-height: 1.2;
+  margin: 0;
+}
+
+/* Description list spacing */
+.experience-desc ul {
+  margin-top: 0.25rem;
+}

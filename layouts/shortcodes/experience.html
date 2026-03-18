@@ -1,0 +1,39 @@
+{{/*
+Usage:
+
+{{< experience
+  role="Sr. Backend Engineer"
+  company="ABC"
+  start="2024-05"
+  end="present"
+  arrangement="Remote"
+>}}
+- Achievement 1
+- Achievement 2
+{{< /experience >}}
+*/}}
+
+<div class="experience">
+
+  <h3 class="experience-role">{{ .Get "role" }}</h3>
+
+  <div class="experience-company">
+    {{ .Get "company" }}
+  </div>
+
+  <div class="experience-meta">
+    {{ partial "timeline-date.html" (dict
+      "start" (.Get "start")
+      "end"   (.Get "end")
+    ) }}
+
+    {{ with .Get "arrangement" }}
+      <div class="work-arrangement">{{ . }}</div>
+    {{ end }}
+  </div>
+
+  <div class="experience-desc">
+    {{ .Inner | markdownify }}
+  </div>
+
+</div>

@@ -1,0 +1,29 @@
+{{/*
+Partial usage:
+{{ partial "timeline-date.html" (dict "start" "2023-04" "end" "present") }}
+*/}}
+
+{{- $startRaw := .start -}}
+{{- $start := time (printf "%s-01" $startRaw) -}}
+
+{{- $endParam := lower .end -}}
+{{- $end := now -}}
+
+{{- if ne $endParam "present" -}}
+  {{- $end = time (printf "%s-01" .end) -}}
+{{- end -}}
+
+{{- $startMonths := add (mul $start.Year 12) $start.Month -}}
+{{- $endMonths := add (mul $end.Year 12) $end.Month -}}
+
+{{- $totalMonths := sub $endMonths $startMonths -}}
+
+{{- $years := div $totalMonths 12 -}}
+{{- $months := mod $totalMonths 12 -}}
+
+<span class="timeline-date">
+  {{ $start.Format "Jan 2006" }} – {{ if eq $endParam "present" }}Present{{ else }}{{ $end.Format "Jan 2006" }}{{ end }}
+  ·
+  {{ if gt $years 0 }}{{ $years }} yr{{ if ne $years 1 }}s{{ end }}{{ end }}
+  {{ if gt $months 0 }} {{ $months }} mo{{ if ne $months 1 }}s{{ end }}{{ end }}
+</span>
