@@ -1,7 +1,7 @@
 ---
 title: "Welcome to M. Ilham Syaputra's posts!"
 date: 2025-02-15
-draft: true
+draft: false
 tags: []
 categories: []
 ---
