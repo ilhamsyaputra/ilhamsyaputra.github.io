@@ -43,8 +43,8 @@ params:
     reliable systems, exploring homelabs, and sharing notes about software engineering, 
     finance, and things learned along the way."
     imageUrl: "images/m-ilham-syaputra.webp"
-    imageWidth: 120
-    imageHeight: 120
+    imageWidth: 240
+    imageHeight: 240
 
   socialIcons:
     - name: "linkedin"
