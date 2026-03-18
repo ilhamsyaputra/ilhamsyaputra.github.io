@@ -12,6 +12,8 @@ params:
   title: "M Ilham Syaputra"
   description: "Hi, I'm Ilham. I build backend systems, run homelabs, and write about tech, finance, and whatever I'm currently learning."
   author: "M. Ilham Syaputra"
+  images:
+    - "/images/m-ilham-syaputra-preview.webp"
   keywords: ["M. Ilham Syaputra"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto
