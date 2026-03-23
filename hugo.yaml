@@ -32,6 +32,7 @@ params:
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
   disableSpecial1stPost: false
   disableScrollToTop: false
   comments: false

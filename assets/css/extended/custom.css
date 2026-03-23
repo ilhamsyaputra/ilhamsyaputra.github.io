@@ -1,3 +1,73 @@
+:root {
+  --primary: linear-gradient(90deg, #ff6b6b, #f06595);
+
+  --accent: #f87171;
+  --accent-soft: rgba(248, 113, 113, 0.12);
+  --accent-border: rgba(248, 113, 113, 0.25);
+
+  --radius-tag: 100px;
+
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.post-tags a {
+  display: inline-flex;
+  align-items: center;
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid var(--accent-border);
+  border-radius: var(--radius-tag);
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+
+.post-tags a:hover {
+  background: var(--accent);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.25);
+}
+
+.nav .active {
+  position: relative;
+  color: var(--accent);
+}
+
+.nav .active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+
+.post-entry {
+  border-radius: 12px;
+  transition: all 0.25s ease;
+}
+
+.post-entry:hover {
+  border-left-color: var(--accent);
+  transform: translateX(4px);
+  box-shadow: var(--shadow-md);
+}
+
+.share-buttons a {
+  background: var(--accent-soft);
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.share-buttons a:hover {
+  background: var(--accent);
+  color: white;
+}
+
 /* Resume Timeline */
 .main .timeline {
   position: relative;
