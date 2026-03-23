@@ -1,4 +1,4 @@
-baseURL: "https://ilhamsyaputra.my.id/"
+baseURL: "https://ilhamsyaputra.com/"
 languageCode: en-us
 title: M. Ilham Syaputra
 theme: ["PaperMod"]
@@ -41,9 +41,10 @@ params:
   profileMode:
     enabled: true
     title: "Welcome! \U0001F44B"
-    subtitle: "Personal website of **M. Ilham Syaputra** - **backend engineer** who enjoys building 
-    reliable systems, exploring homelabs, and sharing notes about software engineering, 
-    finance, and things learned along the way."
+    subtitle: > 
+      Personal website of **M. Ilham Syaputra** - **backend engineer** who enjoys building 
+      reliable systems, exploring homelabs, and sharing notes about software engineering, 
+      finance, and things learned along the way.
     imageUrl: "images/m-ilham-syaputra.webp"
     imageWidth: 240
     imageHeight: 240
