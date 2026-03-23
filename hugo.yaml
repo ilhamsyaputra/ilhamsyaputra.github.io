@@ -2,10 +2,10 @@ baseURL: "https://ilhamsyaputra.com/"
 languageCode: en-us
 title: M. Ilham Syaputra
 theme: ["PaperMod"]
+enableRobotsTXT: true
 
 minify:
-  disableXML: true
-  # minifyOutput: true
+  minifyOutput: true
 
 params:
   env: production
@@ -14,16 +14,24 @@ params:
   author: "M. Ilham Syaputra"
   images:
     - "/images/m-ilham-syaputra-preview.webp"
-  keywords: ["M. Ilham Syaputra"]
+  keywords: [
+    "M. Ilham Syaputra",
+    "Ilham Syaputra",
+    "backend engineer",
+    "backend developer",
+    "golang developer",
+    "software engineer",
+  ]
+  canonicalURL: "https://ilhamsyaputra.com/"
   DateFormat: "January 2, 2006"
-  defaultTheme: auto
+  defaultTheme: dark
   disableThemeToggle: false
 
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   disableSpecial1stPost: false
   disableScrollToTop: false
   comments: false
@@ -42,9 +50,8 @@ params:
     enabled: true
     title: "Welcome! \U0001F44B"
     subtitle: > 
-      Personal website of **M. Ilham Syaputra** - **backend engineer** who enjoys building 
-      reliable systems, exploring homelabs, and sharing notes about software engineering, 
-      finance, and things learned along the way.
+      Personal website of **M. Ilham Syaputra** — a **backend engineer specializing in Go, distributed systems, and homelab infrastructure**. 
+      Sharing insights on software engineering, personal finance, and continuous learning.
     imageUrl: "images/m-ilham-syaputra.webp"
     imageWidth: 240
     imageHeight: 240
