@@ -43,19 +43,19 @@ params:
 
   label:
     text: "M. Ilham Syaputra"
-    icon: "images/coding.png"
-    iconHeight: 35
+    # icon: "images/coding.png"
+    # iconHeight: 35
 
 
   profileMode:
     enabled: true
-    title: "Welcome! \U0001F44B"
+    title: "Hi, Im Ilham! \U0001F44B"
     subtitle: > 
-      Personal website of **M. Ilham Syaputra** — a **backend engineer specializing in Go, distributed systems, and homelab infrastructure**. 
-      Sharing insights on software engineering, personal finance, and continuous learning.
+      Backend engineer specializing in Go, distributed systems, and currently building homelab.
+      I share insights on software engineering, personal finance, and continuous learning.
     imageUrl: "images/m-ilham-syaputra.webp"
-    imageWidth: 240
-    imageHeight: 240
+    imageWidth: 140
+    imageHeight: 140
 
   socialIcons:
     - name: "linkedin"

@@ -5,6 +5,7 @@ draft: false
 summary: "About M. Ilham Syaputra - Backend Engineer"
 showToc: false
 ShowBreadCrumbs: true
+disableShare: true
 ---
 
 ## 👋 Hi, I'm M. Ilham Syaputra
