@@ -4,16 +4,16 @@
     {{- with site.Params.profileMode }}
   <!-- HERO / PROFILE -->
   <section class="hero">
-    
-
     <div class="hero-text">
         <h1>{{ .title | default site.Title | markdownify }}</h1>
         <p>{{ .subtitle | markdownify }}</p>
     </div>
 
     <div class="hero-image">
+        {{ $img := resources.Get .imageUrl }}
+        {{ $img := $img.Resize "280x" }}
         <img 
-        src="{{ .imageUrl }}" 
+        src="{{ $img.RelPermalink }}" 
         alt="M Ilham Syaputra"
         />
     </div>
