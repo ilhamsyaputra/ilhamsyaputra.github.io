@@ -4,6 +4,8 @@ date: 2026-02-14
 draft: false
 hideMeta: true
 showToc: false
+ShowShareButtons: false
+disableShare: true
 ---
 
 ## Working Experiences
