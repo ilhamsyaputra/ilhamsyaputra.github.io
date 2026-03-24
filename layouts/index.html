@@ -5,8 +5,12 @@
   <!-- HERO / PROFILE -->
   <section class="hero">
     <div class="hero-text">
-        <h1>{{ .title | default site.Title | markdownify }}</h1>
-        <p>{{ .subtitle | markdownify }}</p>
+        <div class="hero-header">
+            <h1>{{ .title | default site.Title | markdownify }}</h1>
+        </div>
+        <div class="hero-content">
+            <p>{{ .subtitle | markdownify }}</p>
+        </div>
     </div>
 
     <div class="hero-image">
