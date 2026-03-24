@@ -7,6 +7,14 @@ enableRobotsTXT: true
 minify:
   minifyOutput: true
 
+enableGitInfo: true
+
+frontmatter:
+  lastmod:
+  - lastmod
+  - :git
+  - date
+
 params:
   env: production
   title: "M Ilham Syaputra"
@@ -32,7 +40,6 @@ params:
     favicon16x16: "favicon.svg"
     favicon32x32: "favicon.svg"
 
-  enableGitInfo: true
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -46,13 +53,6 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
-
-  frontmatter:
-    lastmod:
-    - lastmod
-    - :git
-    - date
-    - publishDate
 
   label:
     text: "M. Ilham Syaputra"
