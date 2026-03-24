@@ -1,5 +1,5 @@
 ---
-title: "Welcome to M. Ilham Syaputra's posts!"
+title: "Welcome to my personal website!"
 date: 2025-02-15
 draft: false
 tags: []
