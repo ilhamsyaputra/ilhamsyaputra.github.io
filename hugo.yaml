@@ -27,6 +27,11 @@ params:
   defaultTheme: dark
   disableThemeToggle: false
 
+  assets:
+    favicon: "favicon.svg"
+    favicon16x16: "favicon.svg"
+    favicon32x32: "favicon.svg"
+
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
