@@ -166,7 +166,7 @@ while true; do
 done
 ```
 
-In the script, we use telegram bot to send notification while power loss happens. You can create your own, but I will not explain it here (wait for other post for this). I am also has 3 nodes, STB, Alpha and Bravo. where this script lives in STB node. If you have only one node, then you can easily modify the code, right?
+In the script, we use telegram bot to send notification while power loss happens. You can create your own, but I will not explain it here (wait for other post for this). I am running my homelab server with 3 nodes, STB, Alpha and Bravo, where this script lives in STB node. If you have only one node, then you can easily modify the code, right?
 
 ### 3. Give permission
 
