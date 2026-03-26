@@ -2,6 +2,7 @@
 title: "Resume"
 date: 2026-02-14
 draft: false
+comments: false
 hideMeta: true
 showToc: false
 ShowShareButtons: false

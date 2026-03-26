@@ -34,6 +34,7 @@ params:
   DateFormat: "January 2, 2006"
   defaultTheme: dark
   disableThemeToggle: false
+  comments: true
 
   assets:
     favicon: "favicon.svg"
@@ -48,7 +49,6 @@ params:
   ShowRssButtonInSectionTermList: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
   hidemeta: false
   hideSummary: false
   showtoc: false

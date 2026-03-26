@@ -3,6 +3,7 @@ title: "About Me"
 date: 2026-02-13
 draft: false
 summary: "About M. Ilham Syaputra - Backend Engineer"
+comments: false
 showToc: false
 ShowBreadCrumbs: true
 disableShare: true
